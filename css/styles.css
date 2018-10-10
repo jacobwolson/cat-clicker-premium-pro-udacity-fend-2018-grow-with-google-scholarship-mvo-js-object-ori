@@ -1,0 +1,231 @@
+/* Color scheme "Fresh & Energetic" from article "100 brilliant color
+* combinations and how to apply them to your designs" by Janie Kliever; item
+* number "11." Accessed August, 2018.
+* URL: https://www.canva.com/learn/100-color-combinations/
+*/
+
+/* Styles generally listed as they correspond to elements as they appear from
+* left to right and top to bottom in app's page in desktop view, with
+* meta-styles futhermore at the top of the style sheet, and media queires at
+* the bottom.
+*/
+
+/* Meta-styles
+*/
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Verdana', 'Lato', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: #b7b8b6;
+}
+
+
+.row-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  max-width: 1200px;
+  width: 75%;
+}
+
+
+/* Detailed element styles including individual container styles
+*/
+header {
+  background-color: #4cb5f5;
+  border-bottom: 2.2px solid white;
+  border-top: 2.5px solid white;
+  height: 75px;
+  letter-spacing: 0.4px;
+  margin-bottom: 40px;
+  overflow: auto;
+}
+
+
+header > h1 {
+  margin: auto;
+  padding-top: 14px;
+  text-align: center;
+  width: 50%;
+}
+
+
+#cat-list-container {
+  background-color: #34657c;
+  border: 1px solid blue;
+  margin-bottom: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 10px;
+  width: 200px;
+}
+
+
+#cat-list-container > h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+li {
+  cursor: pointer;
+  margin: 5px auto;
+}
+
+
+#cat-container {
+  background-color: #b3c100;
+  border: 1.3px solid white;
+  height: 400px;
+  margin-bottom: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 315px;
+}
+
+
+#cat-name {
+  font-weight: 600;
+}
+
+
+#click-counter {
+  border: 1.5px solid white;
+  font-size: 1.5em;
+  font-weight: 600;
+  height: 70px;
+  line-height: 50px;
+  margin: 20px auto 20px auto;
+  padding-top: 7px;
+  text-align: center;
+  width: 70px;
+}
+
+
+#cat-name {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+#cat > img {
+  cursor: pointer;
+  display: block;
+  height: 290px;
+  margin: auto;
+  object-fit: scale-down;
+  overflow: hidden;
+  width: 290px;
+}
+
+
+#add-cat-container {
+  background-color: #34675c;
+  border: 1px solid blue;
+  height: 400px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 40px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+
+#add-cat-container > h2 {
+  margin-bottom: 10px;
+}
+
+
+input {
+  color: #1a1a1a;
+  padding-left: 5px;
+  width: 175px;
+}
+
+
+#image-info {
+  text-align: center;
+}
+
+
+#reset-button-container {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+#reset-button-container > p {
+  color: #1a1a1a;
+}
+
+
+#reset-counter-button {
+  border: 0.5px solid black;
+  border-radius: 2px;
+  color: #1a1a1a;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 5px;
+  width: 125px;
+}
+
+
+/*Media queries
+*/
+@media screen and (max-width: 1186px) {
+
+  .row-container {
+    width: 93%;
+  }
+
+  #cat-list-container {
+    margin-right: 15px;
+  }
+
+  #cat-container {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  #add-cat-container {
+    margin-left: 15px;
+  }
+
+}
+
+
+@media screen and (max-width: 731px) {
+
+  header {
+    height: 110px;
+  }
+
+}
+
+
+@media screen and (max-width: 833px) {
+
+  #add-cat-container {
+    height: 220px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 300px;
+  }
+
+  @media screen and (max-width: 385px) {
+    header {
+      height: 150px;
+  }
+
+}

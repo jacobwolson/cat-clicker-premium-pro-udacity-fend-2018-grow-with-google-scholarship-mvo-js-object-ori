@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=0,width=device-width" name="viewport">
+    <meta name="author" content="Jacob Olson">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cat Clicker Premium</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cat Clicker Premium Pro</h1>
+    </header>
+
+    <div class="row-container" id="container-row-1">
+
+      <div id='cat-list-container'>
+        <h2>Pick a Cat</h2>
+        <ul id='cat-list'>
+        </ul>
+      </div>
+
+      <div id='cat-container'></div>
+
+      <div id='add-cat-container'>
+        <h2>Add a Cat</h2>
+        <!-- Input button HTML based on example from W3 Schools. URL: https://www.w3schools.com/html/html_forms.asp -->
+        <form>
+          Cat Name:
+          <input type="text" name="Name" id="name-input"><br><br>
+          Image URL:
+          <input type="text" name="URL" id="url-input"><br><br>
+          <input type="submit" value="Submit" id="submit-button" return="false">
+        </form>
+      </div>
+
+    </div>
+
+    <div class="row-container" id="reset-button-container">
+      <p></p>
+      <button id="reset-counter-button">Reset</button>
+    </div>
+
+    <div class="row-container" id="image-info">
+      <p>All default images are liscenced under CC0 and were grabbed from Pixabay on Aug. 14 and 15, 2018.<br>
+        While CC0 does not require any sort of attribution, photographer handles are included in file names for reference.</p>
+    </div>
+
+    <script type="application/javascript" charset="utf-8" src="js/app-mvo.js"></script>
+  </body>
+</html>
