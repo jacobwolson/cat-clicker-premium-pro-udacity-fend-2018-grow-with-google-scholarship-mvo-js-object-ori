@@ -16,7 +16,7 @@ Jacob W. Olson wrote the code for this web application based on a spec sheet pro
 
 2. Open `index.html` in your browser. Some tips for doing this from Help Desk Geek are available [here](https://helpdeskgeek.com/how-to/open-an-html-file-in-google-chrome/ ).
 
-  * Alternatively, you can run the web application via [its GitHub page](https://jacobwolson.github.io/cat-clicker-premium-version-one-udacity-fend-2018-grow-with-google-scholarship/). To add a new cat with code from the GitHub page and without cloning the repository, you can follow the instructions for adding a new cat below, but enter your code in to the console rather than in to `app.js`.
+  * Alternatively, you can run the web application via [its GitHub page](https://jacobwolson.github.io/cat-clicker-premium-pro-udacity-fend-2018-grow-with-google-scholarship-mvo-js-object-oriented/). To add a new cat with code from the GitHub page and without cloning the repository, you can follow the instructions for adding a new cat below, but enter your code in to the console rather than in to `app.js`.
 
 ![alt-text](images/cat-clicker-premium-pro-screenshot.png)
 
