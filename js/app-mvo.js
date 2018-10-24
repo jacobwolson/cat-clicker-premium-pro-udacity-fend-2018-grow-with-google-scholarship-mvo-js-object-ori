@@ -12,6 +12,7 @@ const model = {
                   <img src="${image}">
                   </div>`;
     this.index = -1;
+    this.indexOf = -1;
     this.inList = false;
   },
 
