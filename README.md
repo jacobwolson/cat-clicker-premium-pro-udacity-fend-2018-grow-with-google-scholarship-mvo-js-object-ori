@@ -4,7 +4,7 @@ UPDATE: implements Model View Controller / Model View Octopus pattern in `app.js
 
 See `app-original.js` for comparison. 
 
-For more on the MVC/MVO pattern, you may wish to check  out [this article](https://hackernoon.com/the-idea-behind-mvc-a-k-a-mvo-9106f43db456 "The idea behind MVC a.k.a MVO" by Houssain Amrani.) by Houssain Amrani posted at Hacker Noon.
+For more on the MVC/MVO pattern, you may wish to check  out [this article](https://hackernoon.com/the-idea-behind-mvc-a-k-a-mvo-9106f43db456 "'The idea behind MVC a.k.a MVO' by Houssain Amrani") by Houssain Amrani posted at Hacker Noon.
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
