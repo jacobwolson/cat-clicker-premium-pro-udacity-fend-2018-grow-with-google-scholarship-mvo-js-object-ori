@@ -1,5 +1,15 @@
 # Cat Clicker Premium | Udacity FEND | 2018
 
+UPDATE: implements Model View Controller / Model View Octopus pattern in `app.js`. 
+
+See `app-original.js` for comparison. 
+
+For more on the MVC/MVO pattern, you may wish to check  out [this article](https://hackernoon.com/the-idea-behind-mvc-a-k-a-mvo-9106f43db456 "The idea behind MVC a.k.a MVO" by Houssain Amrani.) by Houssain Amrani posted at Hacker Noon.
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ORIGINAL:
+
 This is my first attempt at making a specified "Cat Clicker Premium" web application, a project completed as part of "Lesson One: Changing Expectations" in "Part 4: Front-End Applications" of Udacity's Front End Web Developer Nanodegree program, 2018.
 
 As instructed, I wrote this code using the knowledge and skills I have gained in the program so far and in accordance with a spec sheet provided by Udacity.
